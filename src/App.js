@@ -1,12 +1,14 @@
-import logo from './logo.svg';
-import React, { Component } from 'react';
+
+import React from 'react';
 import CarList from './pages/CarList';
 import './App.css';
+//import AddCar from './pages/AddCar';
 
 function App() {
   return (
     <div className="App">
       <CarList/>
+      {/* <AddCar/> */}
     </div>
   );
 }
