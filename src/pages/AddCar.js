@@ -91,7 +91,7 @@ function AddCar ({getCars}) {
                         <Form.Group className="mb-3" controlId="formBasicEmail">
                             <Form.Label>Image</Form.Label>
                             <Form.Control type="file" name="image" id='fileUpload'  onChange ={handleInputImage} placeholder="Enter image" />
-                            <img alt='ts' src={car.file} style={{with:'10em'}}></img>
+                            <img alt='' src={car.file} style={{with:'10em'}}></img>
                         </Form.Group>
 
                         <Form.Group className="mb-3 text-center" controlId="formBasicEmail">
