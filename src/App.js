@@ -5,11 +5,12 @@ import './App.css';
  //import AddCar from './pages/AddCar';
 //import EditCar from './pages/UpdateCar';
 //import routes from './routes';
-import CarList from './pages/CarList';
+//import CarList from './pages/CarList';
+import List from './Home/test';
 function App() {
     return (
        
-        <CarList></CarList>
+        <List></List>
          
       );
 }
